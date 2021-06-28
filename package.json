@@ -1,0 +1,18 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "multiple user chat_application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "ellis_&_lay",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.2"
+  }
+}
