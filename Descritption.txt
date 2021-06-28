@@ -1,0 +1,19 @@
+Multi-User Chatroom For Students.
+
+Project Specifications:
+    - Chatroom app that allows users to join different chatrooms
+    - GUI 
+
+Project requirements:
+    - Node.Js
+    - npm for running server
+
+How to run Web Application:
+    1. make sure Node.Js is installed. 
+    2. Make sure npm is available.
+    3. Open terminal in the folder and run ' npm run dev ' command.
+    4. Open browser and got to ' https://localhost:3000 '.
+        Open multiple tabs with the same address and join different users to different class chatrooms 
+        Enjoy chatting
+
+    NB: Web application only works on local computer.
