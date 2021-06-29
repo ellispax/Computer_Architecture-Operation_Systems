@@ -12,7 +12,7 @@ if (cluster.isMaster) {
   setupMaster(httpServer, {
     loadBalancingMethod: "least-connection", // either "random", "round-robin" or "least-connection"
   });
-  httpServer.listen(3000);
+  httpServer.listen(process.env.PORT || 3000);
 
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
