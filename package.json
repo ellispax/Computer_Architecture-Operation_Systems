@@ -2,7 +2,7 @@
   "name": "chatroom",
   "version": "1.0.0",
   "description": "multiple user chat_application",
-  "main": "server.js",
+  "main": "new_server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
